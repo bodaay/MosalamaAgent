@@ -1,0 +1,9 @@
+# config.yaml
+agent:
+  storageDir: "/var/mosalamaagent/models"
+  monitoringInterval: 30s
+engine:
+  defaultImage: "ghcr.io/engine/engine:latest"
+  resources:
+    cpuQuota: 200000
+    memory: 4294967296
